@@ -66,13 +66,13 @@ class Navbar extends Component {
           <div className={isNavbarFixed ? 'navbar fixed' : 'navbar'}>
             <div className="menu" onClick={() => this.openMenu()}>
               <img
-                src="/AlignLeftText.svg"
+                src="./AlignLeftText.svg"
                 alt="AlignLeftText"
               />
             </div>
             <div className="logo">
               <img
-                src="/logo.png"
+                src="./logo.png"
                 alt="menu"
               />
             </div>
