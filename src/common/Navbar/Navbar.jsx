@@ -54,6 +54,7 @@ class Navbar extends Component {
     this.navList.current.style.transform = "translateX(-15rem)";
   };
   openCart = () => {
+    window.scrollTo(0, 0)
     this.setState(prevState => ({
       showCart: !prevState.showCart
     }));
