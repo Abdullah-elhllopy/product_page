@@ -53,7 +53,7 @@ class Cart extends Component {
                                                 <span className='color'>color : black</span>
                                                 <span className='price'>{product.price} EGP</span>
                                             </div>
-                                            <img src="/vuesax-linear-trash 1.svg" alt='trash' onClick={() => this.props.actions.removeFromCart(product.id)} />
+                                            <img src="./vuesax-linear-trash 1.svg" alt='trash' onClick={() => this.props.actions.removeFromCart(product.id)} />
                                         </div>
                                     </div>
                                 )
