@@ -73,7 +73,7 @@ class Navbar extends Component {
             <div className="logo">
               <img
                 src="./logo.png"
-                alt="menu"
+                alt="hello world"
               />
             </div>
 
@@ -109,14 +109,14 @@ class Navbar extends Component {
 
             <div className="navbar-info">
               <div className="btn-icon">
-                <img src="/vuesax-linear-profile 1.svg" alt="profile" />
+                <img src="./vuesax-linear-profile 1.svg" alt="profile" />
               </div>
               <div className="btn-icon" onClick={() => this.openCart()}>
-                <img src="/vuesax-linear-shopping-cart 1.svg" alt="chart" />
+                <img src="./vuesax-linear-shopping-cart 1.svg" alt="chart" />
                 <div className="badge" >{this.props.cart.length}</div>
               </div>
               <div className="btn-icon">
-                <img src="/vuesax-linear-search-normal 1.svg" alt="search" />
+                <img src="./vuesax-linear-search-normal 1.svg" alt="search" />
               </div>
 
             </div>

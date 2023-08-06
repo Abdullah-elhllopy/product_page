@@ -46,7 +46,7 @@ export default class ProductInfo extends Component {
                         </div>
                     </div>
                     <div className='360_icon'>
-                        <img src='/Group 14419.svg' alt='360' />
+                        <img src='./Group 14419.svg' alt='360' />
                     </div>
                 </div>
                 <div className='description'>
@@ -84,9 +84,9 @@ export default class ProductInfo extends Component {
                 </div>
                 <div className='buy_container'>
                     <div className='counter'>
-                        <img src='/Group 9062.svg' alt='minus' />
+                        <img src='./Group 9062.svg' alt='minus' />
                         <span>1</span>
-                        <img src='/Group 9063.svg' alt='plus' />
+                        <img src='./Group 9063.svg' alt='plus' />
                     </div>
                     <button className='buy'>
                         Buy Now
@@ -95,21 +95,21 @@ export default class ProductInfo extends Component {
                 <div className='actions'>
                     <div className='action'>
                         <div className="icon">
-                            <img src='/Icon.svg' alt='widget' />
+                            <img src='./Icon.svg' alt='widget' />
                         </div>
                         <span>add to wishlist</span>
                     </div>
                     <div className='action'>
                         <div className="icon">
-                            <img src='/Icon.svg' alt='widget' />
+                            <img src='./video.svg' alt='widget' />
 
                         </div>
                         <span>video call</span>
                     </div>
                     <div className='action'>
-                        <div className="icon">
-                            <img src='/video.svg' alt='widget' />
-                        </div>
+                        {/* <div className="icon"> */}
+                        <img src='./Group 8892.svg' alt='widget' />
+                        {/* </div> */}
                         <span>share</span>
                     </div>
                 </div>
