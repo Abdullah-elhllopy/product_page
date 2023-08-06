@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/product_page/static/css/main.7a566796.css",
+    "main.js": "/product_page/static/js/main.fb3740f5.js",
+    "static/js/819.cd4f1b75.chunk.js": "/product_page/static/js/819.cd4f1b75.chunk.js",
+    "static/js/787.d7ff1688.chunk.js": "/product_page/static/js/787.d7ff1688.chunk.js",
+    "static/js/538.14fe7938.chunk.js": "/product_page/static/js/538.14fe7938.chunk.js",
+    "static/media/hover.svg": "/product_page/static/media/hover.2c391bcefecb84b2c551f0ed27c5c145.svg",
+    "static/media/slick.svg": "/product_page/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/product_page/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/product_page/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/product_page/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/vuesax-linear-heart 1.svg": "/product_page/static/media/vuesax-linear-heart 1.5dd74f7cdefd01a1ab34dba8f46147e2.svg",
+    "index.html": "/product_page/index.html",
+    "static/media/Clear Circle.svg": "/product_page/static/media/Clear Circle.76604040629d7c6ac86436410b17da71.svg",
+    "main.7a566796.css.map": "/product_page/static/css/main.7a566796.css.map",
+    "main.fb3740f5.js.map": "/product_page/static/js/main.fb3740f5.js.map",
+    "819.cd4f1b75.chunk.js.map": "/product_page/static/js/819.cd4f1b75.chunk.js.map",
+    "787.d7ff1688.chunk.js.map": "/product_page/static/js/787.d7ff1688.chunk.js.map",
+    "538.14fe7938.chunk.js.map": "/product_page/static/js/538.14fe7938.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a566796.css",
+    "static/js/main.fb3740f5.js"
+  ]
+}
