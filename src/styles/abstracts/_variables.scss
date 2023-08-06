@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,200;1,400&display=swap');
+
+//Typography
+$font: 'Poppins', sans-serif;
+$font-initial-size: 1rem;
+$font-weight-400: 400;
+$font-weight-700: 700;
+
+//Colors
+$Primary-color: #F5F5F5;
+$Black: #000;
+$Secondary-color: #FFFFFF;
+$Red: #B93C3C;
+$Yellow: #FEB801;
+$White:#FFFF;
+$Image-border : #D9D9D9;
+$Muted-color: #818181;
+//Breaking Points
+$small-devices: 600px;
+$portrait-tablets: 600px;
+$landscape-tablets: 768px;
+$large-laptops-desktops: 992px;
+$extra-large-laptops-desktops: 1200px;
+

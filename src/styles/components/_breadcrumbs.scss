@@ -1,0 +1,26 @@
+.bread {
+    padding: 1rem 5.7rem;
+    background-color: $Black;
+    max-height: 82px;
+    display: flex;
+    align-items: center;
+    h4 {
+        color: $White;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 100%;
+        /* 16px */
+        text-transform: capitalize;
+    }
+    
+}
+
+@media screen and (max-width: $portrait-tablets) {
+    .bread{
+        padding: 1rem ;
+    }
+    h4 {
+        font-size: 10px !important;
+    }
+}

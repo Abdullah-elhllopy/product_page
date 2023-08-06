@@ -1,0 +1,61 @@
+.rate {
+    float: left;
+    margin-top: -9px;
+}
+
+.rate:not(:checked)>input {
+    position: absolute;
+    top: -10000px;
+}
+
+.rate:not(:checked)>label {
+    float: right;
+    width: 1em;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 30px;
+    color: $Yellow;
+}
+
+.rate:not(:checked)>label:before {
+    content: '★ ';
+}
+
+.rate>input:checked~label {
+    color: $Yellow;
+}
+
+// .rate:not(:checked)>label:hover,
+// .rate:not(:checked)>label:hover~label {
+//     color: #deb217;
+// }
+
+// .rate>input:checked+label:hover,
+// .rate>input:checked+label:hover~label,
+// .rate>input:checked~label:hover,
+// .rate>input:checked~label:hover~label,
+// .rate>label:hover~input:checked~label {
+//     color: #c59b08;
+// }
+.star-rating {
+    margin-top: -9px;
+    margin-left: -5px;
+    button {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        width: 1em;
+        overflow: hidden;
+        white-space: nowrap;
+        cursor: pointer;
+        font-size: 30px;
+    }
+    .on {
+        color: $Yellow;
+    }
+    .off {
+        color: #ccc;
+    }
+}
