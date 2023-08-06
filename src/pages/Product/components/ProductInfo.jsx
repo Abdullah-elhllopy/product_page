@@ -18,6 +18,19 @@ export default class ProductInfo extends Component {
         this.state = {
             activeColor: 0,
             activeSize: 0,
+            count: 1
+        }
+    }
+    handleIncrease() {
+        this.setState({
+            count: this.state.count + 1
+        })
+    }
+    handleDecrease() {
+        if (this.state.count > 1) {
+            this.setState({
+                count: this.state.count - 1,
+            });
         }
     }
     render() {
@@ -84,9 +97,9 @@ export default class ProductInfo extends Component {
                 </div>
                 <div className='buy_container'>
                     <div className='counter'>
-                        <img src='./Group 9062.svg' alt='minus' />
-                        <span>1</span>
-                        <img src='./Group 9063.svg' alt='plus' />
+                        <img onClick={this.handleDecrease.bind(this)} src='./Group 9062.svg' alt='minus' />
+                        <span>{this.state.count}</span>
+                        <img onClick={this.handleIncrease.bind(this)} src='./Group 9063.svg' alt='plus' />
                     </div>
                     <button className='buy'>
                         Buy Now
